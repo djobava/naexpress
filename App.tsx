@@ -5,6 +5,7 @@ import { LuPhone } from 'react-icons/lu'
 import About from './about'
 import Contact from './contact'
 import Footer from './footer'
+import { Analytics } from '@vercel/analytics/react'
 
 function App() {
   return (
@@ -80,6 +81,7 @@ function App() {
       </main>
 
       <Footer />
+      <Analytics />
     </>
   )
 }
